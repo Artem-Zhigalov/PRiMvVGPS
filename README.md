@@ -1,11 +1,9 @@
 # PRiMvVGPS
 Результат работы в этом семестре:
+
 **1. Установка Armbian на Orange PI**  
-1. Скачали образ Armbian для Orange PI (например, `Armbian_23.02.1_Orangepizero_jammy_current_6.1.11.img.xz`) с сайта armbian.com.  
-2. Записали образ на SD-карту через Etcher (или через `dd` в Linux):  
-   ```
-   sudo dd if=Armbian_23.02.1_Orangepizero_jammy_current_6.1.11.img of=/dev/sdX bs=4M status=progress
-   ```  
+1. Скачали образ Armbian для Orange PI  `Armbian_23.02.1_Orangepizero_jammy_current_6.1.11.img.xz`
+2. Записали образ на SD-карту через Etcher:  
 3. Загрузили Orange PI с SD-карты, выполнили вход (логин: `root`, пароль: `1234`).  
 4. Обновили пакеты:  
    ```
@@ -46,7 +44,7 @@
    - Microcontroller Architecture: **STM32**  
    - Processor model: **STM32H743**  
    - Bootloader offset: **32KiB**  
-   - Communication interface: **USB** (или UART).  
+   - Communication interface: **USB**.  
 4. Скомпилировали прошивку:  
    ```
    make
