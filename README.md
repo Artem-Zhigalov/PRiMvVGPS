@@ -4,7 +4,7 @@
 **1. Установка Armbian на Orange PI**  
 1. Скачали образ Armbian для Orange PI  `Armbian_23.02.1_Orangepizero_jammy_current_6.1.11.img.xz`
 2. Записали образ на SD-карту через Etcher:  
-3. Загрузили Orange PI с SD-карты, выполнили вход (логин: `root`, пароль: `1234`).  
+3. Загрузили Orange PI с SD-карты, прошли первичную настройку (см. image.png), выполнили вход (логин: `root`, пароль: `1234`).  
 4. Обновили пакеты:  
    ```
    sudo apt update && sudo apt upgrade -y
